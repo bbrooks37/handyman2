@@ -1,0 +1,352 @@
+/* Reset and Base Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles 
+  Sets styles for the header section, including background color, padding, 
+  and text alignment.
+*/
+.handyman-header {
+  background-color: #f8f8f8;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* Logo Styles 
+  Defines styles for the logo image within the header, setting 
+  maximum width, height, and bottom margin.
+*/
+.handyman-logo {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Header Heading Styles 
+  Styles the main heading (h1) in the header, defining font size, 
+  color, margin, and font weight.
+*/
+.handyman-header h1 {
+  font-size: 2.5em;
+  color: #3498db;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Hero Section Styles 
+  Sets the background image, size, position, color, text alignment, 
+  and padding for the hero section.
+*/
+.handyman-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./your-hero-image.jpg'); /* Replace with your hero image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+/* Hero Content Styles 
+  Defines styles for the content within the hero section, including 
+  maximum width and margin for centering.
+*/
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Hero Heading Styles 
+  Styles the heading (h2) within the hero content, defining font size, 
+  margin, and font weight.
+*/
+.hero-content h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Hero Paragraph Styles 
+  Styles the paragraph text within the hero content, defining font size 
+  and margin.
+*/
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Call-to-Action Button Styles 
+  Defines styles for call-to-action buttons, including background color, 
+  color, padding, text decoration, border radius, font size, font weight, 
+  and transition for hover effect.
+*/
+.cta-button {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+/* Call-to-Action Button Hover Styles 
+  Defines the background color change on hover for call-to-action buttons.
+*/
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+/* Services Section Styles 
+  Sets padding, background color, and margin for the services section.
+*/
+.handyman-services {
+  padding: 60px 20px;
+  background-color: #f0f0f0;
+}
+
+/* Services Heading Styles 
+  Styles the heading (h2) in the services section, defining font size, 
+  margin, text alignment, font weight, and color.
+*/
+.handyman-services h2 {
+  font-size: 2.2em;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+  color: #3498db;
+}
+
+/* Services Grid Styles 
+  Defines the grid layout for the services section, setting the number of 
+  columns, gap between items, and margin.
+*/
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Service Item Styles 
+  Styles individual service items within the grid, including background 
+  color, padding, border radius, box shadow, text alignment, and transition 
+  for hover effect.
+*/
+.service-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Service Item Hover Styles 
+  Defines the transform effect on hover for service items.
+*/
+.service-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Service Item Heading Styles 
+  Styles the heading (h3) within each service item, defining font size, 
+  margin, color, and font weight.
+*/
+.service-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #3498db;
+  font-weight: 600;
+}
+
+/* Service Item Paragraph Styles 
+  Styles the paragraph text within each service item, defining font size 
+  and color.
+*/
+.service-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Call-to-Action Section Styles 
+  Sets background color, padding, and text alignment for the CTA section.
+*/
+.handyman-cta {
+  background-color: #e8f5e9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* CTA Heading Styles 
+  Styles the heading (h2) in the CTA section, defining font size, 
+  margin, font weight, and color.
+*/
+.handyman-cta h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #27ae60;
+}
+
+/* CTA Paragraph Styles 
+  Styles the paragraph text in the CTA section, defining font size 
+  and margin.
+*/
+.handyman-cta p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Footer Styles 
+  Sets background color, color, text alignment, and padding for the footer.
+*/
+.handyman-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Footer Link Styles 
+  Styles links within the footer, defining color and text decoration.
+*/
+.handyman-footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Footer Link Hover Styles 
+  Defines the text decoration on hover for footer links.
+*/
+.handyman-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments 
+  Applies styles for smaller screens (max-width 768px), adjusting font 
+  sizes for headings and changing the grid layout for services.
+*/
+@media (max-width: 768px) {
+  .handyman-header h1 {
+    font-size: 2em;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5em;
+  }
+
+  .handyman-services h2 {
+    font-size: 2em;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Service Page Styles 
+  Defines styles for the service page, including padding, maximum width, 
+  margin for centering, and font styles for headings and paragraphs.
+*/
+.service-page {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Service Page Heading Styles 
+  Styles headings (h2) on the service page, defining font size, margin, 
+  and color.
+*/
+.service-page h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+
+/* Service Page Paragraph Styles 
+  Styles paragraphs on the service page, defining font size, line height, 
+  and margin.
+*/
+.service-page p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Quote Button Styles 
+  Defines styles for quote buttons, including background color, color, 
+  padding, border, border radius, font size, cursor, transition for hover 
+  effect, and margin.
+*/
+.quote-button {
+  background-color: #27ae60; /* Green for "get started" */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+/* Quote Button Hover Styles 
+  Defines the background color change on hover for quote buttons.
+*/
+.quote-button:hover {
+  background-color: #219653;
+}
+
+/* Navigation Bar Styles 
+  Defines styles for the navigation bar, including display as flex for 
+  horizontal alignment, justification for centering, and margin.
+*/
+.handyman-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this to vertically center items */
+  margin-top: 20px;
+}
+
+/* Navigation Link Styles 
+  Styles links within the navigation bar, defining margin, text decoration, 
+  color, font weight, and transition for hover effect.
+*/
+.handyman-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+/* Navigation Link Hover Styles 
+  Defines the color change on hover for navigation links.
+*/
+.handyman-nav a:hover {
+  color: #2980b9;
+}
+
+/* Navigation Logo Styles 
+  Defines styles for the logo image within the navigation bar, setting 
+  maximum height, automatic width to maintain aspect ratio, margin for 
+  spacing, and vertical alignment to center with text.
+*/
+.handyman-nav img {
+  max-height: 80px; /* Adjust the max-height as needed */
+  width: auto;
+  margin-right: 20px;
+  vertical-align: middle;
+}
